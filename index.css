@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    font-family: "press Start 2P",Arial, Helvetica, sans-serif;
+    font-size: large;
+    border:border-box;
+    }
+    .press-start-2p-regular {
+        font-family: "Press Start 2P", serif;
+        font-weight: 100;
+        font-style: normal;
+        }
+body{
+    margin:0;
+    height:100vh;
+    color:red;
+    background-image: url("images/wp2514492-truth-or-dare-wallpapers.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    padding:5%;
+}
+h1{
+    font-size: large;
+}
+#participants{
+    background-color: black;
+    border-radius: 15px;
+    height: 30px;
+    max-width: 500px;
+    overflow:hidden;
+    box-shadow: 5px 5px 2px gray;
+}
+.initial{
+    position: relative;
+    background-color: red;
+    color:black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 2px black;
+    height:50px;
+    width: 200px;
+}
+.after{
+    position: absolute;
+    top: 50%;
+    right:30%;
+}
+#chance{
+    color:gray;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px red;
+    display: block;
+    text-align: center;
+    font-size: 7em;
+}
+#roll{
+    text-align: center;
+    height:50px;
+    width: 125px;
+    border-radius: 20px;
+    background-color: red;
+    box-shadow: 5px 5px 2px black;
+}
+#parag{
+    background-color: gray;
+    box-shadow: 10px 10px 5px red;
+    color:black;
+    border-radius: 10px;
+    padding:10px;
+    text-align: left;
+    max-width:500px;
+}
